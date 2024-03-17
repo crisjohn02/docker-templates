@@ -15,8 +15,8 @@ services:
     volumes:
       - ./app:/app
     networks:
-      - npm-network
+      - npm-net
 
 networks:
-  npm-network:
+  npm-net:
    external: true
